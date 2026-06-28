@@ -111,7 +111,7 @@ nav{
 .btn-primary:hover{background:#3a8bff;transform:translateY(-1px);box-shadow:0 4px 32px rgba(33,124,255,.5)}
 .btn-ghost{border:1px solid var(--line-strong);color:var(--text)}
 .btn-ghost:hover{border-color:var(--blue);color:var(--blue)}
-.nav-cta{padding:9px 18px;font-size:14px}
+.nav-cta{padding:9px 18px;font-size:14px}.nav-dd{position:relative;padding-bottom:16px;margin-bottom:-16px}.nav-dd-trigger{cursor:pointer}.nav-dd-menu{position:absolute;top:100%;left:0;display:none;flex-direction:column;min-width:220px;background:var(--bg-panel);border:1px solid var(--line-strong);border-radius:12px;padding:8px;box-shadow:0 18px 44px -18px rgba(0,0,0,.7)}.nav-dd:hover .nav-dd-menu{display:flex}.nav-dd-menu a{font-size:14px;color:var(--text-dim);padding:9px 12px;border-radius:8px;white-space:nowrap;transition:.2s}.nav-dd-menu a:hover{background:var(--bg-card);color:var(--text)}
 @media(max-width:860px){.nav-links{display:none}}
 @media(max-width:480px){nav{padding:14px 4vw}.nav-cta{padding:8px 13px;font-size:13px}.logo-wrap span{font-size:19px}.nav-right{gap:10px}}
 
@@ -406,12 +406,19 @@ footer{border-top:1px solid var(--line);padding:64px 0 44px;background:var(--bg-
     <span>ataraxy</span>
   </a>
   <div class="nav-links">
-    <a href="https://caio.ataraxydigital.com/">CAIO Fracionado</a>
-    <a href="https://voice.ataraxydigital.com/">IA de Voz</a>
-    <a href="https://portcoai.ataraxydigital.com/">IA para PE / VC</a>
-    <a href="https://www.ataraxydigital.com/#work">Implementa&ccedil;&otilde;es</a>
-    <a href="https://www.ataraxydigital.com/#contact">Contato</a>
-  </div>
+      <div class="nav-dd">
+        <a href="https://www.ataraxydigital.com/#services" class="nav-dd-trigger">Serviços</a>
+        <div class="nav-dd-menu">
+          <a href="https://caio.ataraxydigital.com/">Fractional CAIO</a>
+          <a href="https://voice.ataraxydigital.com/">Voice AI</a>
+          <a href="https://portcoai.ataraxydigital.com/">AI for PE / VC</a>
+          <a href="https://sprint.ataraxydigital.com/">AI Sprint</a>
+          <a href="https://qa.ataraxydigital.com/">Call QA</a>
+        </div>
+      </div>
+      <a href="https://www.ataraxydigital.com/#work">Casos</a>
+      <a href="https://www.ataraxydigital.com/#contact">Contato</a>
+    </div>
   <div class="nav-right">
     <a class="btn btn-primary nav-cta" href="https://meet.ataraxydigital.com" target="_blank" rel="noopener">Agendar uma conversa</a>
   </div>
@@ -620,6 +627,8 @@ footer{border-top:1px solid var(--line);padding:64px 0 44px;background:var(--bg-
         <a href="https://caio.ataraxydigital.com" target="_blank" rel="noopener">Chief AI Officer Fracionado</a>
         <a href="https://voice.ataraxydigital.com" target="_blank" rel="noopener">Infraestrutura de IA de Voz</a>
         <a href="https://portcoai.ataraxydigital.com" target="_blank" rel="noopener">IA para Portf&oacute;lios PE / VC</a>
+        <a href="https://sprint.ataraxydigital.com/">AI Sprint</a>
+        <a href="https://qa.ataraxydigital.com/">Call QA</a>
       </div>
       <div class="foot-col">
         <h4>Contato</h4>
