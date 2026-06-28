@@ -1,9 +1,9 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Sprint — from idea to a working AI system in 6 weeks | ataraxy</title>
-<meta name="description" content="ataraxy's fixed-price, fixed-scope front door. A production AI system shipped and transferred to your team in 6 weeks — no retainer, no RFP, no slideware. You own everything we build.">
-<meta property="og:title" content="AI Sprint — from idea to a working AI system in 6 weeks">
+<title>AI Sprint - from idea to a working AI system in 6 weeks | ataraxy</title>
+<meta name="description" content="ataraxy's fixed-price, fixed-scope front door. A production AI system shipped and transferred to your team in 6 weeks - no retainer, no RFP, no slideware. You own everything we build.">
+<meta property="og:title" content="AI Sprint - from idea to a working AI system in 6 weeks">
 <meta property="og:description" content="Fixed price, fixed scope, and you own everything we build. The way to work with ataraxy without signing a retainer or running an RFP.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ataraxy">
@@ -17,7 +17,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AI Sprint — from idea to a working AI system in 6 weeks">
+<meta name="twitter:title" content="AI Sprint - from idea to a working AI system in 6 weeks">
 <meta name="twitter:description" content="Fixed price, fixed scope, and you own everything we build. The way to work with ataraxy without signing a retainer or running an RFP.">
 <meta name="twitter:image" content="https://sprint.ataraxydigital.com/og.png">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -365,6 +365,11 @@ footer{border-top:1px solid var(--line);padding:64px 0 44px;background:var(--bg-
   .reveal,.hero .reveal-load{opacity:1;transform:none;animation:none;transition:none}
   .ticker-track{animation:none}
 }
+
+.lang-foot{flex-basis:100%;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:18px}
+.lang-foot a{color:var(--text-faint);text-decoration:none;padding:4px 11px;border:1px solid var(--line);border-radius:99px;font-family:var(--font-mono);font-size:11px;line-height:1;transition:color .2s,border-color .2s,background .2s}
+.lang-foot a:hover{color:var(--text);border-color:var(--line-strong)}
+.lang-foot a.active{background:var(--blue);color:#fff;border-color:var(--blue)}
 </style>
 <style>
 /* ---------- sub-page components (gap-grid, features) ---------- */
@@ -642,6 +647,12 @@ footer{border-top:1px solid var(--line);padding:64px 0 44px;background:var(--bg-
     <div class="foot-bottom">
       <span>&copy; <span class="yr">2026</span> ataraxy SAS</span>
       <span>ataraxydigital.com</span>
+      <nav class="lang-foot" aria-label="Language">
+        <a href="/" hreflang="en" data-lang="en" class="active">English</a>
+        <a href="/es/" hreflang="es" data-lang="es">Español</a>
+        <a href="/pt/" hreflang="pt-BR" data-lang="pt">Português</a>
+        <a href="/zh/" hreflang="zh-Hans" data-lang="zh">中文</a>
+      </nav>
     </div>
   </div>
 </footer>
@@ -650,4 +661,5 @@ footer{border-top:1px solid var(--line);padding:64px 0 44px;background:var(--bg-
 document.querySelectorAll(".yr").forEach(e=>e.textContent=new Date().getFullYear());
 const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);}})},{threshold:0.12});document.querySelectorAll(".reveal").forEach(el=>io.observe(el));</script>
 
+<script>(function(){var a=document.querySelectorAll(".lang-foot a");for(var i=0;i<a.length;i++){a[i].addEventListener("click",function(){var d=location.hostname.indexOf("ataraxydigital.com")>=0?";domain=.ataraxydigital.com":"";document.cookie="lang="+this.getAttribute("data-lang")+";path=/;max-age=31536000;samesite=lax"+d;});}})();</script>
 </body></html>
