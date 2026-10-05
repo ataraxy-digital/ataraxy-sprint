@@ -1,0 +1,22 @@
+# Ataraxy AI Sprint
+
+> Ataraxy is an applied AI agency based in Montevideo, Uruguay, serving LATAM and the US. AI Sprint is a fixed-scope engagement to build and transfer a working AI system to the client team.
+
+## Service
+
+- [AI Sprint](https://sprint.ataraxydigital.com/): A fixed-scope engagement to build and transfer a working AI system to the client team.
+- [How it works](https://sprint.ataraxydigital.com/#how): The delivery process and operating model.
+- [Scope and ownership](https://sprint.ataraxydigital.com/#own): What the client receives and how the engagement works.
+
+## Related Ataraxy services
+
+- [Ataraxy](https://www.ataraxydigital.com/): Agency overview, implementation cases, and contact.
+- [Agent Team](https://team.ataraxydigital.com/): Related applied AI service.
+
+## Languages and contact
+
+- [English](https://sprint.ataraxydigital.com/): AI Sprint service page in English.
+- [Español](https://sprint.ataraxydigital.com/es/): AI Sprint service page in Español.
+- [Português](https://sprint.ataraxydigital.com/pt/): AI Sprint service page in Português.
+- [简体中文](https://sprint.ataraxydigital.com/zh/): AI Sprint service page in 简体中文.
+- [Book a call](https://meet.ataraxydigital.com/): Discuss a project with Ataraxy.
